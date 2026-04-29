@@ -115,7 +115,6 @@ All assignment submissions are in the `milestones/` folder:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pip install tiktoken tree-sitter==0.20.1
 ```
 
 ### Step 2 — Install cinspector

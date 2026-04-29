@@ -1,3 +1,4 @@
 google-generativeai
 python-dotenv
 tiktoken
+tree-sitter==0.20.1
