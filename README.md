@@ -249,7 +249,7 @@ The evaluation uses **20 libpcap APIs** drawn from the same benchmark used in th
 
 The 20 APIs covered are: `pcap_snapshot`, `pcap_is_swapped`, `pcap_major_version`, `pcap_create`, `pcap_open_dead_with_tstamp_precision`, `pcap_findalldevs`, `pcap_set_promisc`, `pcap_list_datalinks`, `pcap_parsesrcstr_ex`, `pcap_list_tstamp_types`, `pcap_set_tstamp_type`, `pcap_activate`, `pcap_set_snaplen`, `pcap_close`, `pcap_setfilter`, `pcap_lookupdev`, `pcap_next_ex`, `pcap_set_timeout`, `pcap_strerror`, `pcap_set_buffer_size`.
 
-### Baseline (Alternative System)
+### Baseline (Original GPTAid)
 
 The **baseline** configuration reproduces the original GPTAid pipeline — no inter-procedural retrieval (`retrieval_depth=0`) and no Critic Agent (`critic_agent=false`) — on the same dataset and LLM. This serves as the direct comparison system for measuring the contribution of each proposed enhancement. The baseline results are stored in `results/baseline/`.
 
